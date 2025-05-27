@@ -1,23 +1,10 @@
-// export function setupCounter(element) {
-//   let counter = 0
-//   const setCounter = (count) => {
-//     counter = count
-//     element.innerHTML = `count is ${counter}`
-//   }
-//   element.addEventListener('click', () => setCounter(++counter))
-//   setCounter(0)
-// }
 import React from 'react';
-import './index.css';
-import RegisterForm from './components/RegisterForm';
+import ReactDOM from 'react-dom/client';
+import './styles/tailwind.css';
+import App from './App';
 
-const App = () => {
-  return (
-    <div>
-      <h1>Boda Emergency & Tracking App</h1>
-      <RegisterForm />
-    </div>
-  );
-};
-
-export default App;
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
