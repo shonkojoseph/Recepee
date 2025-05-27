@@ -1,9 +1,9 @@
-// import './style.css'
-// import javascriptLogo from './javascript.svg'
-// import { setupCounter } from './lib/main.js'
+import './style.css'
+import javascriptLogo from './javascript.svg'
+ import { setupCounter } from './lib/main.js'
 
-// document.querySelector('#app').innerHTML = `
-//   <div>
+ document.querySelector('#app').innerHTML = `
+   <div>
 //     <a href="https://vite.dev" target="_blank">
 //       <img src="/vite.svg" class="logo" alt="Vite logo" />
 //     </a>
@@ -20,4 +20,4 @@
 //   </div>
 // `
 
-// setupCounter(document.querySelector('#counter'))
+ setupCounter(document.querySelector('#counter'))
