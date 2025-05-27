@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import Community from './pages/Community';
 import Business from './pages/Business';
 
+
 export default function App() {
   return (
     <Router>
@@ -16,6 +17,8 @@ export default function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/community" element={<Community />} />
         <Route path="/business" element={<Business />} />
+       
+
       </Routes>
     </Router>
   );
